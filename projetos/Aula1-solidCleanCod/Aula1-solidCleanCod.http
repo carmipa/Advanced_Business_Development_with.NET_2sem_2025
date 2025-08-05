@@ -1,0 +1,6 @@
+@Aula1_solidCleanCod_HostAddress = http://localhost:5115
+
+GET {{Aula1_solidCleanCod_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
