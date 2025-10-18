@@ -1,41 +1,38 @@
-
 ---
 
 ## 🎯 CP5 2025
 
-**🛞 CP5 — Locadora de Carros: Reservas, Pagamentos e Observabilidade (ASP.NET Core 8 + Clean Architecture)**
+**🔐 CP5 - Autenticação e Autorização com JWT em ASP.NET Core Web API**
 
 **Integrantes do Grupo:**  
-**Paulo André Carminati RM557881**  
-**Turma: 2-TDSPZ**
+- **Amanda Mesquita Cirino Da Silva** - RM559177  
+- **Journey Tiago Lopes Ferreira** - RM556071  
+- **Paulo André Carminati** - RM557881  
+**Turma:** 2-TDSPZ  
 
-**Repositório no GitHub**: [CP5 - Locadora de Carros: Reservas, Pagamentos e Observabilidade](https://github.com/carmipa/Advanced_Business_Development_with.NET_CP_1SEM/tree/main/cp5)
-
----
-
-### 📌 Objetivo
-Evoluir a API da locadora construída nos CPs anteriores adicionando **reserva em tempo real**, **pagamentos**, **observabilidade completa** (logs estruturados, métricas e traces) e **boas práticas de arquitetura** (Clean Architecture + CQRS/Validation).
+**Repositório no GitHub:** [CP5 - Autenticação e Autorização com JWT em ASP.NET Core Web API](https://github.com/carmipa/Advanced_Business_Development_with.NET_2sem_2025)
 
 ---
 
-### 🧩 Principais Funcionalidades
-- **Reservas em tempo real** com *hold* temporário do veículo (TTL)  
-- **Pagamentos** (simulação) com estados: `Pending → Authorized → Captured → Refunded`  
-- **Cancelamento e reembolso** com regras de negócio e janelas de tempo  
-- **Disponibilidade** por período (datas/horários) e filial  
-- **Observabilidade**: Serilog (JSON), OpenTelemetry (traces/metrics/logs), Swagger/OpenAPI  
-- **Segurança**: JWT (Bearer), perfis `admin` e `user`  
-- **Validações** robustas (FluentValidation) e notificações de domínio  
+### 📘 Descrição
+A startup **SafeScribe** está desenvolvendo uma plataforma inovadora para gestão de notas e documentos sensíveis voltada para equipes corporativas.  
+A segurança e o controle de acesso são pilares centrais do produto, exigindo um **backend robusto** que garanta que apenas usuários autenticados tenham acesso ao sistema e que suas permissões sejam aplicadas de forma rigorosa.
+
+A missão deste projeto é **construir o núcleo da API RESTful da SafeScribe**, implementando um sistema de **autenticação e autorização seguro** utilizando **JSON Web Tokens (JWT)**.
 
 ---
 
-### 🏗️ Arquitetura (Clean Architecture)
-- **Domain** → Entidades, Value Objects, eventos de domínio  
-- **Application** → Casos de uso (CQRS com MediatR), DTOs, validações  
-- **Infrastructure** → EF Core, Repositórios, Migrations, Serilog, OTel exporters  
-- **WebApi** → Endpoints (Minimal API/Controllers), Auth, Swagger  
+### 🛠️ Requisitos Técnicos
+- **Framework:** .NET 8 (ou superior)  
+- **Tipo de Projeto:** ASP.NET Core Web API  
+- **Autenticação:** JWT (JSON Web Tokens) com o pacote  
+  `Microsoft.AspNetCore.Authentication.JwtBearer`
 
 ---
 
-### 🛠️ Tecnologias
-`.NET 8`, `ASP.NET Core`, `EF Core 8`, `PostgreSQL/SQL Server`, `Medi
+### 📅 Entrega
+- **Data de entrega:** 20/10/2025 até 23h59  
+- **Grupos:** até 3 integrantes  
+- **Entrega:** link do repositório GitHub + README com nomes e RMs dos membros  
+
+---
